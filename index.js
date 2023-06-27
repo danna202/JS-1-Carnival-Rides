@@ -7,16 +7,23 @@ let greenWireConnected = true
 let yellowWireConnected = true
 let redWireConnected = true
 let waterIsOn = true
+let waterIsEmpty = false
+
+// let ride1PowerElement = document.querySelector("#ride-1-power")
+// let ride2PowerElement = document.querySelector("#ride-2-power")
+// let ride3PowerElement = document.querySelector("#ride-3-power")
+// let ride4PowerElement = document.querySelector("#ride-4-power")
+
 //Everything below is fair game for you to power on the rides
 
 //Ride 1 works when:
     // green wire is connected
 // let ride1PowerOn = false
     if (greenWireConnected){
-        // ride1PowerOn = true
+        ride1PowerOn = true
       }
        
-    ride1PowerOn = false
+    // ride1PowerOn = false
 
 //Ride 2 works when 
     //green and yellow wires are connected
